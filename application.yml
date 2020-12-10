@@ -3,7 +3,7 @@ spring:
     url: jdbc:postgresql://localhost:5432/rentDB?createDatabaseIfNotExist=true
     username: postgres
     password: qwer
-    driver-class-name: com.postgresql.Driver
+    driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
       naming:
